@@ -16,7 +16,7 @@ sass:
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "WTCBC | 华夏圣经教会西堂"
 description:	       "WTCBC华夏圣经教会西堂"
-author:              "Tom Wu"
+author:              "Cloud Nativity"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
