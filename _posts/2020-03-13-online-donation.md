@@ -2,8 +2,8 @@
 layout: post
 title: "Online Donation 在线奉献"
 author: "Tom Wu"
-categories: documentation
-tags: [documentation, donation]
+categories: announcement
+tags: [announcement, donation]
 image: online-donation.jpg
 ---
 
