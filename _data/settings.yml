@@ -7,29 +7,23 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Interesting Facts', folder: 'pages', file: 'facts.html'}
-- {name: 'Learning Resources', folder: 'pages', file: 'resources.html'}
-- {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
-- {name: 'Documentation', folder: 'pages', file: 'documentation.html'}
-- {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+- {name: '讲道录音', folder: 'pages', file: 'documentation.html'}
+- {name: '教会信息', folder: 'pages', file: 'about.html'}
+- {name: '联系我们', folder: 'pages', file: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'facebook', link: 'https://www.facebook.com/Le.Paul.94'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'facebook', link: 'https://www.facebook.com/%E5%8D%8E%E5%A4%8F%E5%9C%A3%E7%BB%8F%E6%95%99%E4%BC%9A%E8%A5%BF%E5%A0%82wtcbc-111202637167983'}
+- {icon: 'envelope', link: 'mailto:info@wtcbc.com'}
 - {icon: 'rss-square', link: 'feed.xml'}
-# - {icon: 'rss-square', link: 'rss-feed.xml'}
 
 # Customize site text
 pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
+  next_page: '下一页'
+  previous_page: '上一页'
 
 sharing_button_prompt: 'Feel free to share!'
 
-related_posts: 'You may also enjoy...'
+related_posts: '您可能喜欢...'
 
-post_date_prefix: 'Written on'
+post_date_prefix: '写于'
