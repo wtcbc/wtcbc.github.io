@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Online Donation 在线奉献"
-author: "Tom Wu"
+title: "Online Donation | 在线奉献"
+author: "WTCBC"
 categories: announcement
 tags: [announcement, donation]
 image: online-donation.jpg
