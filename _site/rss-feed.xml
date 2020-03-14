@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>WTCBC | 华夏圣经教会西堂</title>
+		<title>WTCBC - 华夏圣经教会西堂</title>
 		<description>WTCBC华夏圣经教会西堂</description>
 		<link></link>
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,9 @@
 					<dc:creator>Tom Wu</dc:creator>
 				
 				
-					<description>&lt;p&gt;随着COVID-19疫情不断的扩大，我们华夏圣经教会随之扩展相应的在线的奉献的服务&lt;/p&gt;
+					<description>&lt;blockquote&gt;
+  &lt;p&gt;随着COVID-19疫情不断的扩大，华夏圣经教会西堂随之扩展相应的在线的奉献的服务&lt;/p&gt;
+&lt;/blockquote&gt;
 
 </description>
 				
