@@ -7,12 +7,12 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Welcome to Millennial!</title>
+				<title>Online Donation 在线奉献</title>
 				
-					<dc:creator>Paul Le</dc:creator>
+					<dc:creator>Tom Wu</dc:creator>
 				
 				
-					<description>&lt;p&gt;Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
+					<description>&lt;p&gt;随着COVID-19疫情不断的扩大，我们华夏圣经教会随之扩展相应的在线的奉献的服务&lt;/p&gt;
 
 </description>
 				

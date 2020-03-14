@@ -1,31 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-13T23:27:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">WTCBC | 华夏圣经教会西堂</title><subtitle>WTCBC华夏圣经教会西堂</subtitle><author><name>Tom Wu</name></author><entry><title type="html">Welcome to Millennial!</title><link href="http://localhost:4000/documentation/welcome-to-wtcbc.html" rel="alternate" type="text/html" title="Welcome to Millennial!" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/documentation/welcome-to-wtcbc</id><content type="html" xml:base="http://localhost:4000/documentation/welcome-to-wtcbc.html">&lt;p&gt;Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-14T00:05:49-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">WTCBC | 华夏圣经教会西堂</title><subtitle>WTCBC华夏圣经教会西堂</subtitle><author><name>Tom Wu</name></author><entry><title type="html">Online Donation 在线奉献</title><link href="http://localhost:4000/documentation/welcome-to-wtcbc.html" rel="alternate" type="text/html" title="Online Donation 在线奉献" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/documentation/welcome-to-wtcbc</id><content type="html" xml:base="http://localhost:4000/documentation/welcome-to-wtcbc.html">&lt;p&gt;随着COVID-19疫情不断的扩大，我们华夏圣经教会随之扩展相应的在线的奉献的服务&lt;/p&gt;
 
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h2&gt;
+&lt;h2 id=&quot;开始在线奉献&quot;&gt;开始在线奉献&lt;/h2&gt;
 
-&lt;h2 id=&quot;example-content&quot;&gt;Example Content&lt;/h2&gt;
-
-&lt;p&gt;[Text and Formatting](&lt;/p&gt;
-
-&lt;h2 id=&quot;questions&quot;&gt;Questions?&lt;/h2&gt;
-
-&lt;p&gt;This theme is completely free and open source software. You may use it however you want, as it is distributed under the &lt;a href=&quot;http://choosealicense.com/licenses/mit/&quot;&gt;MIT License&lt;/a&gt;. If you are having any problems, any questions or suggestions, feel free to &lt;a href=&quot;https://twitter.com/intent/tweet?text=My%20question%20about%20Millennial;via=paululele&quot;&gt;tweet at me&lt;/a&gt;, or &lt;a href=&quot;https://github.com/lenpaul/Millennial/issues/new&quot;&gt;file a GitHub issue&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;more-jekyll&quot;&gt;More Jekyll!&lt;/h2&gt;
-
-&lt;h3 id=&quot;lagrange&quot;&gt;Lagrange&lt;/h3&gt;
-
-&lt;p&gt;Lagrange is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog.&lt;/p&gt;
-
-&lt;p&gt;Feel free to check out &lt;a href=&quot;https://lenpaul.github.io/Lagrange/&quot; target=&quot;_blank&quot;&gt;the demo&lt;/a&gt;, where you’ll also find instructions on &lt;a href=&quot;https://lenpaul.github.io/Lagrange/journal/getting-started.html&quot;&gt;how to use install&lt;/a&gt; and use the theme.&lt;/p&gt;
-
-&lt;h3 id=&quot;portfolio-jekyll-theme&quot;&gt;Portfolio Jekyll Theme&lt;/h3&gt;
-
-&lt;p&gt;This is a Jekyll theme built using the &lt;a href=&quot;http://devtipsstarterkit.com/&quot;&gt;DevTips Starter Kit&lt;/a&gt; as a foundation for starting, and following closely the amazing tutorial by &lt;a href=&quot;https://www.youtube.com/watch?v=T6jKLsxbFg4&amp;amp;list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P&quot;&gt;Travis Neilson over at DevTips&lt;/a&gt;. The purpose of this theme is to provide a clean and simple website for your portfolio. Emphasis is placed on your projects, which are shown front and center on the home page.&lt;/p&gt;
-
-&lt;p&gt;Everything that you will ever need to know about this Jekyll theme is included in &lt;a href=&quot;https://github.com/LeNPaul/portfolio-jekyll-theme&quot;&gt;the repository&lt;/a&gt;, which you can also find in &lt;a href=&quot;https://lenpaul.github.io/portfolio-jekyll-theme/&quot;&gt;the demo site&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;jekyll-starter-kit&quot;&gt;Jekyll Starter Kit&lt;/h3&gt;
-
-&lt;p&gt;The Jekyll Starter Kit is a simple framework for starting your own Jekyll project using all of the best practices that I learned from building my other Jekyll themes.&lt;/p&gt;
-
-&lt;p&gt;Feel free to check out &lt;a href=&quot;https://github.com/LeNPaul/jekyll-starter-kit&quot; target=&quot;_blank&quot;&gt;the GitHub repository&lt;/a&gt;, where you’ll also find instructions on how to use install and use the theme.&lt;/p&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/cuba-1.jpg" /></entry></feed>
+&lt;p&gt;PayPal Giving Fund &lt;a href=&quot;https://paypal.com/ca/fundraiser/charity/3908200&quot;&gt;点击奉献&lt;/a&gt; - &lt;a href=&quot;https://paypal.com/ca/fundraiser/charity/3908200&quot;&gt;paypal.com/ca/fundraiser/charity/3908200&lt;/a&gt;&lt;/p&gt;</content><author><name>Tom Wu</name></author><category term="documentation" /><category term="donation" /><summary type="html">随着COVID-19疫情不断的扩大，我们华夏圣经教会随之扩展相应的在线的奉献的服务</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/online-donation.jpg" /></entry></feed>

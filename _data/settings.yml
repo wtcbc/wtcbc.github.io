@@ -8,7 +8,7 @@ google-ID: 'UA-112060364-2'
 
 menu:
 - {name: '讲道录音', folder: 'pages', file: 'documentation.html'}
-- {name: '教会信息', folder: 'pages', file: 'about.html'}
+- {name: '关于我们', folder: 'pages', file: 'about.html'}
 - {name: '联系我们', folder: 'pages', file: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

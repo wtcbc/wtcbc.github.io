@@ -1,6 +1,6 @@
 ---
 layout: misc
-title: About
+title: 关于我们
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme
+我们的目标是分享给世人耶稣基督救恩的好消息，尤其是对于中国同胞。用圣经的教导来建造信徒生命，大家在神的爱中彼此关怀和支持。
