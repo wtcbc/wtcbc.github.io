@@ -14,7 +14,7 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "WTCBC - 华夏圣经教会西堂"
+title:		           "WTCBC | 华夏圣经教会西堂"
 description:	       "WTCBC华夏圣经教会西堂"
 author:              "Tom Wu"
 
