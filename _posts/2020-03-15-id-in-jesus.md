@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "守住在基督里的身份 - March 15, 2020"
+title: "讲道录音 - 守住在基督里的身份 - 2020-03-15"
 author: "WTCBC"
 categories: live
 tags: [live, streaming, 2020]
