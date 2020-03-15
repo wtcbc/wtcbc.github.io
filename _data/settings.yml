@@ -6,6 +6,9 @@ disqus:
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'UA-160592507-1'
 
+test:
+- {name: '在线奉献', link: 'https://paypal.com/ca/fundraiser/charity/3908200'}
+
 menu:
 - {name: '在线敬拜 | 讲道录音', folder: 'pages', file: 'live.html'}
 # - {name: '讲道录音', folder: 'pages', file: 'documentation.html'}
