@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Live Worship | 在线敬拜"
+title: "在线敬拜 | 讲道录音"
 author: "WTCBC"
 categories: live
 tags: [live, streaming]
