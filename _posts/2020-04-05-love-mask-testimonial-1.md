@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "关于“爱心口罩”行动事工的见证（一）"
+title: "“爱心口罩”行动事工的见证（一）"
 author: "WTCBC"
 categories: live
 tags: [announcement, 2020, covid-19, 爱心口罩]
