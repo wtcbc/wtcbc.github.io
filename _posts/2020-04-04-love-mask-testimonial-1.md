@@ -2,7 +2,7 @@
 layout: post
 title: "华夏“爱心口罩”行动事工的见证（一）"
 author: "WTCBC"
-categories: live
+categories: announcement
 tags: [announcement, 2020, covid-19, 爱心口罩]
 image: love-mask-testimonial-1.jpg
 ---
