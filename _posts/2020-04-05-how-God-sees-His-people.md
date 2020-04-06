@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "神怎么看待他的子民 - Gord Martin"
+title: "神怎么看待他的子民 - Gord Martin | 04-05-2020"
 author: "WTCBC"
 categories: live
 tags: [live, 2020, sermon]
