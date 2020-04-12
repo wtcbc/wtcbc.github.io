@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "回归家庭的信仰 - 龚明鹏"
+title: "回归家庭的信仰 - 龚明鹏 - 04/12/2020"
 author: "WTCBC"
 categories: live
 tags: [live, 2020, sermon]
