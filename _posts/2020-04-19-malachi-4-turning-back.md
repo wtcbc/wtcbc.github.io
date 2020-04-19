@@ -4,7 +4,7 @@ title: "父亲的心转向儿女、儿女的心转向父亲 - 胡君才 - 04/19/
 author: "WTCBC"
 categories: live
 tags: [live, 2020, sermon]
-image: family.jpg
+image: parent.jpg
 ---
 
 ## 父亲的心转向儿女、儿女的心转向父亲
