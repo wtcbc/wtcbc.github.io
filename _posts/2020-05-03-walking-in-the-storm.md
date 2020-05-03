@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Walk in the storm - Pastor Dhany - 05/03/2020"
+title: "Walking in the storm - Pastor Dhany - 05/03/2020"
 author: "WTCBC"
 categories: live
 tags: [live, 2020, sermon]
