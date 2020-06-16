@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
   Site variables
 */
@@ -37,13 +38,13 @@ h4, h5, h6 {
 
 /* Body */
 body {
-  font-family: "Roboto", sans-serif, "Microsoft YaHei"; }
+  font-family: "Roboto", sans-serif, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑"; }
 
 body img {
   align: middle;
   margin: 5px auto auto auto;
   display: block;
-  max-width: 600px; }
+  max-width: 800px; }
 
 p {
   display: block;
@@ -52,14 +53,14 @@ p {
   margin-left: 0;
   margin-right: 0;
   line-height: 1.65;
-  font-family: "Roboto", sans-serif, "Microsoft YaHei"; }
+  font-family: "Roboto", sans-serif, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑"; }
 
 /* Lists */
 ul, ol, dl {
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 1.5rem;
-  font-family: "Roboto", sans-serif, "Microsoft YaHei"; }
+  font-family: "Roboto", sans-serif, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑"; }
 
 ol li {
   margin-top: 1rem;
@@ -155,7 +156,7 @@ th, td {
 .featured-posts h2 span {
   display: inline-block;
   color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif, 'Microsoft YaHei';
+  font: bold 24px/45px Helvetica, Sans-Serif, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑";
   letter-spacing: -1px;
   background: black;
   /* fallback color */
@@ -197,7 +198,7 @@ th, td {
   padding: 0px 10px 10px; }
 
 .misc-content {
-  max-width: 600px;
+  max-width: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -205,7 +206,7 @@ th, td {
   margin-bottom: 10px; }
 
 .page-content {
-  width: 600px;
+  width: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -222,7 +223,7 @@ th, td {
   align: middle;
   margin: 5px auto 25px;
   display: block;
-  max-width: 600px; }
+  max-width: 800px; }
 
 @media (max-width: 1100px) {
   .page-content {
@@ -291,7 +292,7 @@ th, td {
 .related-title {
   float: right;
   padding-bottom: .5rem;
-  font-family: "Roboto", sans-serif, "Microsoft YaHei"; }
+  font-family: "Roboto", sans-serif, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑"; }
 
 @media (max-width: 1100px) {
   .related-thumbnail {
@@ -408,7 +409,7 @@ th, td {
     width: 95vw; } }
 code,
 pre {
-  font-family: "Source Code Pro", monospace, "Microsoft YaHei"; }
+  font-family: "Source Code Pro", monospace, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑"; }
 
 code {
   padding: .25em .5em;
@@ -445,7 +446,7 @@ pre code {
 
 /* Gist via GitHub Pages */
 .gist .gist-file {
-  font-family: "Source Code Pro", monospace, "Microsoft YaHei" !important; }
+  font-family: "Source Code Pro", monospace, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑" !important; }
 
 .gist .markdown-body {
   padding: 15px; }
