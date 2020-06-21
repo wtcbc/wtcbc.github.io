@@ -11,7 +11,7 @@ image: parent.jpg
 
 ### 讲员： 胡君才
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestcbc%2Fvideos%2F589407361650646%2F&show_text=true&width=552&appId=377664742243645&height=377" width="600" height="377" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestcbc%2Fvideos%2F589407361650646%2F&show_text=true&width=552&appId=377664742243645&height=377" width="1100" height="608" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 ## 开始在线奉献
 <br/>
