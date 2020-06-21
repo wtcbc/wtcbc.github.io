@@ -13,10 +13,10 @@ image: id-in-jesus.jpg
 
 ### 第一部分
 
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestcbc%2Fvideos%2F635119313975287%2F&show_text=1&width=560" width="1100" height="608" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestcbc%2Fvideos%2F635119313975287%2F&show_text=1&width=560" width="800" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
 
 ### 第二部分
 
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestcbc%2Fvideos%2F242412320256239%2F&show_text=0&width=560" width="1100" height="608" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwestcbc%2Fvideos%2F242412320256239%2F&show_text=0&width=560" width="800" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
 > 更多的信息请查看我们的[Facebook Page](https://www.facebook.com/westcbc)
