@@ -10,7 +10,7 @@ link:
 - {name: '在线奉献', link: 'https://paypal.com/ca/fundraiser/charity/3908200'}
 
 menu:
-- {name: '2020退休会', folder: 'pages', file: 'retreat.html'}
+- {name: '2020退修会', folder: 'pages', file: 'retreat.html'}
 - {name: '讲道录音', folder: 'pages', file: 'live.html'}
 - {name: '关于我们', folder: 'pages', file: 'about.html'}
 - {name: '联系我们', folder: 'pages', file: 'contact.html'}
