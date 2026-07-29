@@ -1,17 +1,13 @@
 <!doctype html>
-<html>
+<html lang="{% if page.lang == "en" %}en{% else %}zh-CN{% endif %}">
 
 {% include head.html %}
 
 <body>
-
-<div class="container">
   {% include header.html %}
-  <div class="posts-wrapper">
+  <main id="main-content">
     {{ content }}
-  </div>
+  </main>
   {% include footer.html %}
-</div>
-
 </body>
 </html>

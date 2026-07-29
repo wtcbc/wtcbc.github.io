@@ -1,23 +1,22 @@
-# Site Build Settings
+title: "多伦多华夏圣经教会西堂 | WTCBC"
+description: "多伦多华夏圣经教会西堂（约克大学堂）— 每周日下午 2:30 在 1000 Petrolia Rd 聚会。"
+author: "West Toronto Chinese Bible Church"
+url: "https://www.wtcbc.com"
+lang: "zh-CN"
 
-# jekyll-paginate configuration
-paginate:            5
-
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+paginate: 5
+markdown: kramdown
+highlighter: rouge
+permalink: none
+timezone: America/Toronto
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 sass:
   sass_dir: assets/css
-  style: :nested
+  style: compressed
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "华夏圣经教会西堂 | WTCBC"
-description:	       "华夏圣经教会西堂 | WTCBC"
-author:              "Cloud Nativity"
-
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+social:
+  name: West Toronto Chinese Bible Church
+  links:
+    - https://www.facebook.com/westcbc
+    - https://www.youtube.com/@wtcbc2009

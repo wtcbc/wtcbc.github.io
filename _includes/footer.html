@@ -1,6 +1,29 @@
-<footer class="footer">
-  {% for item in site.data.settings.social %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-  {% endfor %}
-  <div class="post-date"><a href="{{ site.github.url | replace: 'http://', '//'}}/">{{ site.title }} | {{ site.description }} by {{ site.author }}</a></div>
+{% assign english = false %}
+{% if page.lang == "en" %}{% assign english = true %}{% endif %}
+<footer class="site-footer">
+  <div class="site-width footer-grid">
+    <div class="footer-brand">
+      <img src="{{ "/assets/img/site/logo.png" | relative_url }}" alt="" width="88" height="88">
+      <div>
+        <strong>{% if english %}West Toronto Chinese Bible Church{% else %}多伦多华夏圣经教会西堂{% endif %}</strong>
+        <p>{% if english %}A church family serving the York University community.{% else %}在神的爱中彼此关怀，彼此支持。{% endif %}</p>
+      </div>
+    </div>
+    <div>
+      <h2>{% if english %}Visit{% else %}参加聚会{% endif %}</h2>
+      <p>{% if english %}Sunday at 2:30 pm{% else %}每周日下午 2:30{% endif %}<br>1000 Petrolia Rd<br>North York, ON M3J 3L7</p>
+    </div>
+    <div>
+      <h2>{% if english %}Connect{% else %}联系我们{% endif %}</h2>
+      <p><a href="mailto:info@wtcbc.com">info@wtcbc.com</a></p>
+      <div class="social-links">
+        <a href="{{ site.data.settings.external.facebook }}" target="_blank" rel="noopener">Facebook</a>
+        <a href="{{ site.data.settings.external.youtube }}" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </div>
+  <div class="site-width footer-bottom">
+    <p>© 2022–{{ site.time | date: "%Y" }} West Toronto Chinese Bible Church</p>
+    <a href="{% if english %}/en/special/{% else %}/special/{% endif %}">{% if english %}Special statement{% else %}特别声明{% endif %}</a>
+  </div>
 </footer>

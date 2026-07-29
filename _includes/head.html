@@ -1,36 +1,36 @@
 <head>
-
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} | {{ site.description }}
-    {% else %}
-      {{ page.title }} | {{ site.title }}
-    {% endif %}
-  </title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-
-  <link rel="stylesheet" href="{{ site.github.url | replace: 'http://', '//'}}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ site.github.url | replace: 'http://', '//'}}/assets/css/syntax.css">
-  <!-- Use Atom -->
-  {% feed_meta %}
-  <!-- RSS-v2.0
-  <link href="{{ site.github.url | replace: 'http://', '//'}}/rss-feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/>
-  //-->
-
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-
-  <!-- Google Analytics -->
-  {% include google-analytics.html %}
-
-  <!-- Use Jekyll SEO plugin -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#29324f">
   {% seo %}
-
+  {% assign social_image = page.social_image | default: "/assets/img/site/og.png" %}
+  <meta property="og:image" content="{{ social_image | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}">
+  {% feed_meta %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Church",
+      "name": "West Toronto Chinese Bible Church",
+      "alternateName": "多伦多华夏圣经教会西堂",
+      "url": "https://www.wtcbc.com",
+      "image": "{{ "/assets/img/site/logo.png" | absolute_url }}",
+      "email": "info@wtcbc.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1000 Petrolia Rd",
+        "addressLocality": "North York",
+        "addressRegion": "ON",
+        "postalCode": "M3J 3L7",
+        "addressCountry": "CA"
+      },
+      "sameAs": [
+        "https://www.facebook.com/westcbc",
+        "https://www.youtube.com/@wtcbc2009"
+      ]
+    }
+  </script>
 </head>

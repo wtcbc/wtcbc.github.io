@@ -1,33 +1,39 @@
-# Change 'comments' to true for Disqus comments
 disqus:
   comments: false
   disqus_shortname: 'millennial-3'
 
-# If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-160592507-1'
+google-ID: ''
 
-link:
-- {name: '在线奉献', link: 'https://paypal.com/ca/fundraiser/charity/3908200'}
+external:
+  donate: "https://www.paypal.com/ca/fundraiser/charity/3908200"
+  register: "https://forms.gle/DwyGzKbb2qShb2xR9"
+  youtube: "https://www.youtube.com/@wtcbc2009"
+  facebook: "https://www.facebook.com/westcbc"
+  instagram: "https://www.instagram.com/wtcbc_nissi"
+  library: "https://docs.google.com/spreadsheets/d/1syDUBBzYitW--mOiyGB4Uyy7K5kqV9M7TuTDlhjStLI/edit?usp=sharing"
 
-menu:
-- {name: '2020退修会', folder: 'pages', file: 'retreat.html'}
-- {name: '讲道录音', folder: 'pages', file: 'live.html'}
-- {name: '关于我们', folder: 'pages', file: 'about.html'}
-- {name: '联系我们', folder: 'pages', file: 'contact.html'}
+nav_zh:
+  - {name: "主页", url: "/"}
+  - {name: "关于我们", url: "/aboutus/"}
+  - {name: "聚会信息", url: "/fellowship/"}
+  - {name: "英文崇拜", url: "/englishservice/"}
+  - {name: "尼西学生团契", url: "/耶和华尼西学生团契/"}
+  - {name: "图书馆", url: "/library/"}
+  - {name: "联系我们", url: "/contactus/"}
 
-# Available social icons are powered by Font Awesome, so you can use any icon that they offer
-social:
-- {icon: 'facebook', link: 'https://www.facebook.com/westcbc'}
-- {icon: 'envelope', link: 'mailto:info@wtcbc.com'}
-- {icon: 'rss-square', link: 'feed.xml'}
+nav_en:
+  - {name: "Home", url: "/en/"}
+  - {name: "About", url: "/en/aboutus/"}
+  - {name: "Groups", url: "/en/fellowship/"}
+  - {name: "English Service", url: "/en/englishservice/"}
+  - {name: "Nissi Fellowship", url: "/en/耶和华尼西学生团契/"}
+  - {name: "Library", url: "/en/library/"}
+  - {name: "Contact", url: "/en/contactus/"}
 
-# Customize site text
 pagination:
   next_page: '下一页'
   previous_page: '上一页'
 
 sharing_button_prompt: '自由分享这个消息吧！'
-
 related_posts: '您可能喜欢...'
-
 post_date_prefix: '写于'

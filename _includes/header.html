@@ -1,31 +1,61 @@
+{% assign english = false %}
+{% if page.lang == "en" %}{% assign english = true %}{% endif %}
+<a class="skip-link" href="#main-content">{% if english %}Skip to content{% else %}跳至主要内容{% endif %}</a>
 <header class="site-header">
-  <h3 class="site-title">
-    <a href="{{ site.github.url | replace: 'http://', '//'}}/">{{ site.title }}</a>
-  </h3>
-  <nav class="menu-list">
-
-    {% for item in site.data.settings.link %}
-      <a href="{{ item.link }}" class="menu-link" target="_blank" class="menu-link">{{ item.name }}</a>
-    {% endfor %}
-
-    {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url | replace: 'http://', '//'}}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
-    {% endfor %}
-
-    {% for item in site.data.settings.social %}
-      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-    {% endfor %}
-  </nav>
-  <div class="dropdown">
-    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-    <div class="dropdown-content">
-      {% for item in site.data.settings.menu %}
-        <a href="{{ site.github.url | replace: 'http://', '//'}}/pages/{{ item.file }}" class="menu-link">{{ item.name }}</a>
-      {% endfor %}
-
-      {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-      {% endfor %}
+  <div class="utility-bar">
+    <div class="site-width utility-inner">
+      <p>
+        {% if english %}
+          Sunday worship · 2:30 pm · 1000 Petrolia Rd
+        {% else %}
+          主日崇拜 · 下午 2:30 · 1000 Petrolia Rd
+        {% endif %}
+      </p>
+      <div class="utility-actions">
+        <a href="{{ site.data.settings.external.youtube }}" target="_blank" rel="noopener">
+          {% if english %}Watch online{% else %}观看直播{% endif %}
+        </a>
+        <a href="{{ site.data.settings.external.donate }}" target="_blank" rel="noopener">
+          {% if english %}Donate{% else %}在线奉献{% endif %}
+        </a>
+      </div>
     </div>
+  </div>
+
+  <div class="site-width nav-row">
+    <a class="brand" href="{% if english %}/en/{% else %}/{% endif %}" aria-label="{% if english %}WTCBC home{% else %}华夏圣经教会西堂主页{% endif %}">
+      <img src="{{ "/assets/img/site/logo.png" | relative_url }}" alt="" width="74" height="74">
+      <span>
+        <strong>{% if english %}West Toronto Chinese Bible Church{% else %}多伦多华夏圣经教会西堂{% endif %}</strong>
+        <small>{% if english %}华夏圣经教会西堂{% else %}West Toronto Chinese Bible Church{% endif %}</small>
+      </span>
+    </a>
+
+    {% if english %}
+      {% assign navigation = site.data.settings.nav_en %}
+      {% assign language_url = page.alt_url | default: "/" %}
+    {% else %}
+      {% assign navigation = site.data.settings.nav_zh %}
+      {% assign language_url = page.alt_url | default: "/en/" %}
+    {% endif %}
+
+    <nav class="desktop-nav" aria-label="{% if english %}Main navigation{% else %}主要导航{% endif %}">
+      {% for item in navigation %}
+        <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+      <a class="language-link" href="{{ language_url }}">{% if english %}中文{% else %}EN{% endif %}</a>
+    </nav>
+
+    <details class="mobile-menu">
+      <summary>{% if english %}Menu{% else %}菜单{% endif %}</summary>
+      <nav aria-label="{% if english %}Mobile navigation{% else %}移动导航{% endif %}">
+        {% for item in navigation %}
+          <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.name }}</a>
+        {% endfor %}
+        <a href="{{ site.data.settings.external.youtube }}" target="_blank" rel="noopener">{% if english %}Sunday Service{% else %}主日崇拜{% endif %}</a>
+        <a href="{{ site.data.settings.external.donate }}" target="_blank" rel="noopener">{% if english %}Donate{% else %}奉献{% endif %}</a>
+        <a class="language-link" href="{{ language_url }}">{% if english %}中文{% else %}English{% endif %}</a>
+      </nav>
+    </details>
   </div>
 </header>
