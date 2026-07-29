@@ -6,7 +6,8 @@
   {% assign social_image = page.social_image | default: "/assets/img/site/og.png" %}
   <meta property="og:image" content="{{ social_image | absolute_url }}">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ "/assets/img/site/logo.png" | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ "/assets/img/site/logo.png" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}">
   {% feed_meta %}
