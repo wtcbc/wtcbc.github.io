@@ -6,9 +6,9 @@
     <div class="site-width utility-inner">
       <p>
         {% if english %}
-          Sunday worship · 2:30 pm · 1000 Petrolia Rd
+          Sunday worship · 2:30 pm<span class="utility-address"> · 1000 Petrolia Rd</span>
         {% else %}
-          主日崇拜 · 下午 2:30 · 1000 Petrolia Rd
+          主日崇拜 · 下午 2:30<span class="utility-address"> · 1000 Petrolia Rd</span>
         {% endif %}
       </p>
       <div class="utility-actions">
@@ -24,7 +24,7 @@
 
   <div class="site-width nav-row">
     <a class="brand" href="{% if english %}/en/{% else %}/{% endif %}" aria-label="{% if english %}WTCBC home{% else %}华夏圣经教会西堂主页{% endif %}">
-      <img src="{{ "/assets/img/site/logo.png" | relative_url }}" alt="" width="74" height="74">
+      <img src="{{ "/assets/img/site/logo.png" | relative_url }}" alt="" width="96" height="96">
       <span>
         <strong>{% if english %}West Toronto Chinese Bible Church{% else %}多伦多华夏圣经教会西堂{% endif %}</strong>
         <small>{% if english %}华夏圣经教会西堂{% else %}West Toronto Chinese Bible Church{% endif %}</small>
